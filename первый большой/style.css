@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+margin: 0;
+padding: 0;
+}
+
+body {
+font-family: "PT Serif", serif;
+background-color: #212830;
+}
+
+.img-header {
+background-image: url('./Rectangle.png');
+background-repeat: no-repeat;
+height: 100lvh;
+}
+
+.div1{
+background-size: cover;
+display: flex;
+justify-content: space-between;
+padding: 20px 40px;
+margin-bottom: 150px;
+}
+
+.h1{
+color: rgb(186, 188, 189);
+}
+
+.h2{
+color: rgb(186, 188, 189);
+}
+
+.div2{
+width: 599px;
+/* height: 15000px; */
+display: flex;
+justify-content: space-between;
+color: antiquewhite;
+padding-top: 18px;
+padding-right: 30px;
+}
+
+.h3:hover{
+color: rgb(68, 67, 65);
+cursor: pointer;
+transition: all 0.4s ease;
+
+}
+
+.div3{
+display: flex;
+flex-direction: column;
+align-items: center;
+color: burlywood;
+}
+
+.mouse{
+width: 40px;
+height: 40px;
+padding-top: 65px;
+margin-bottom: 130px;
+}
+
+.placeholder{
+display: flex;
+color:rgba(212, 193, 127, 1);
+padding-top: 130px;
+}
+
+.oo0{
+    padding-left: 15px;
+}
+
+.p1{
+margin-right: 30px;
+color:rgba(212, 193, 127, 1);
+padding-left: 15px;
+}
+
+.park{
+height: 80px;
+width: 80px;
+display: flex;
+}
+
+.section_two {
+display: flex;
+justify-content: center;
+position: relative;
+background-color: #212830;
+}
+
+.section_two_card {
+display: flex;
+flex-direction: column-reverse;
+margin-right: 100px;
+padding-top: 150px;
+padding-bottom: 150px;
+}
+
+.pp{
+height: 500px;
+width: 300px;
+position: absolute;
+right: 105px;
+top: 100px;
+}
+
+
+.park{
+padding-top: 15px;
+color: white;
+text-align: center;
+}
+
+.section_three{
+background-color: #212830;
+display: flex;
+flex-wrap: wrap-reverse;
+position: relative;
+
+}
+
+.H2{
+padding-left: 150px;
+padding-bottom: 50px;
+color:rgba(212, 193, 127, 1);
+}
+
+.img1{
+    padding-left: 150px;
+}
+
+.ppp{
+width: 420px;
+height: 320px;
+position: absolute;
+top:40px;
+left: 10px;
+padding-left: 90px;
+
+}
+
+.imgg{
+position: relative;
+margin-left: 160px;
+}
+
+.p2{
+position: absolute;
+color: white;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+top: 358px;
+left: 550px;
+gap: 60px;
+justify-content: space-around;
+font-family: "PT Serif", serif;
+}
+
+.section_one{
+background-image: url('./Rectangle (3).png');
+background-repeat: no-repeat;
+padding-bottom: 90px;
+}
+
+.h11{
+color:rgba(212, 193, 127, 1);
+padding-left: 350px;
+padding-top: 190px;
+}
+
+.pp11{
+color: white; 
+display: flex;
+flex-direction: column;
+padding-left: 250px;
+padding-top: 35px;
+}
+
+.b1{
+width: 255px;
+height: 50px;
+background-color: rgba(212, 193, 127, 0.1);
+border: black;
+color: white;
+font-size: 16px;
+margin-right: 80px;
+}
+
+.b1:hover{
+background-color:rgba(212, 193, 127, 0.4);
+cursor: text;
+transition: all 0.4s ease;
+}
+
+.p1p{
+color: white;
+display: flex;
+flex-direction: column;
+padding-top: 20px;
+}
+
+.vvv {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+}
+
+.flex-h11{
+display: flex;
+}
+
+.b2{
+width: 255px;
+height: 50px;
+background-color: rgba(212, 193, 127, 1);
+border: black;
+color: white;
+font-size: 16px;
+margin-top: 40px;
+}
+
+.b2:hover {
+background-color: rgb(153, 139, 86);
+cursor: pointer;
+transition: all 0.4s ease;
+}
+
+.section_4{
+position: relative;
+display: inline-block;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.xtnsht{
+position: absolute;
+padding-left: 1000px;
+padding-top: 200px;
+width: 350px;
+height: 300px;
+}
+
+
+.gg01{
+    display: block;
+}
+
+.play1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+pointer-events: none;
+width: 100px;
+height: 100px;
+}
+
+
+
+.v{
+position: absolute;
+width: 260px;
+height: 500px;
+padding-left: 95px;
+padding-top: 150px;
+
+}
+
+
+.as{
+    width: 200px;
+    height: 100px;
+    padding-top: 200px;
+    padding-left: 260px;
+}
+
+
+.ra{
+    position: absolute;
+    padding-left: 260px;
+    padding-top: 80px;
+    color: rgba(212, 193, 127, 1);
+}
+
+
+.house{
+    padding-top: 500px;
+    
+}
